@@ -80,8 +80,6 @@ body {
     padding-top: 115px;
     padding-bottom: 115px;
     text-align: center;
-  }
-  .form {
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -106,20 +104,9 @@ body {
   .form label {
     font-size: 18px;
     font-weight: 600;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
   }
-  .form input {
-    font-size: 18px;
-    color: #213053;
-    height: 60px;
-    padding-top: 0px;
-    padding-right: 20;
-    padding-bottom: 0px;
-    padding-left: 20px;
-    border-radius: 15px;
-    border: none;
-  }
-  .form select {
+  .form input, .form select {
     font-size: 18px;
     color: #213053;
     height: 60px;
@@ -160,20 +147,10 @@ body {
     text-align: center;
     opacity: 0.5; 
   }
-  .footer__group_1, .footer__group_2, .footer__group_3 {
+  .footer__group {
     margin-right: 80px;
   }
-  .footer__group_1 h3 {
-    font-size: 16px;
-    opacity: 0.7;
-    margin-bottom: 30px;
-  }
-  .footer__group_2 h3 {
-    font-size: 16px;
-    opacity: 0.7;
-    margin-bottom: 30px;
-  }
-  .footer__group_3 h3 {
+  .footer h3 {
     font-size: 16px;
     opacity: 0.7;
     margin-bottom: 30px;
